@@ -58,7 +58,7 @@
             margin-left: 100px;
             margin-bottom:100px;
             margin-top: 200px;
-         
+           
         }
 .the-best {margin-left: 150px;
            margin-bottom: 50px ;
@@ -72,7 +72,7 @@
 	transform: translate(-99%,-1%) rotate(1050deg);
 	transition: all 0.60s linear 0.25s; 
     background-color:bisque; 
-  
+    
 }
 
 
@@ -82,7 +82,7 @@
             height: 461px;
             display: flex;
             justify-content: space-between;
-        
+            
 }
 
 .text-wraper1  {
@@ -132,17 +132,27 @@
 
 }
 .image2-wraper img{width:444px;margin-right: 58px;}
-.flex-container {display:flex;justify-content: space-between;background-color: burlywood;margin-top: 150px;}
-.flex-container img {width: 250px;margin-left:50px ;margin-top:150px ;}
-/* .container3 {}
+.flex-container {display:flex;background-color: burlywood;margin: 200px 0 20px 0;}
+.flex-container img {width: 250px;margin-left:50px ;}
 
-.desert img{width: 300px;} */
+.container3 {width: 100%;display: flex;justify-content: space-between;background-color: burlywood;}
+.container3 img{width: 300px;}
+.box {color:white;font-size: 25px;margin-left: 45%;margin-top: 50px;
+}
 .box::after {content:' ';
-    background-color: #FF7A00;
-    height: 4px;
-    width:47px;
+    background-color: white;
+    height: 6px;
+    width:50px;
     display: inline-block;
-    margin-left:18px;}
+    }
+.box::before {content:' ';
+        background-color: white;
+        height: 6px;
+        width:50px;
+        display: inline-block;
+        
+        }
+
 .container4 {
     /* max-width: 1080px; */
     width: 100%;
@@ -152,7 +162,7 @@
     height: 1080px;
     margin: 0;
     padding:0;
-    margin-top: 400px;
+ 
 }
 .footer-container {
     /* max-width:1080px; */
@@ -181,6 +191,7 @@
 .fa-map-marker-alt {margin-right: 15px;color:aliceblue;margin-bottom: 10px;}
 .footer-right1-block a{color:aliceblue;font-size: 15px;font-family:"BPG Nino Mtavruli Bold", sans-serif ;line-height: 10px;}
 /* Full-width input fields */
+
 input[type=text], input[type=password] {
   
     padding: 15px;
@@ -188,8 +199,9 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: none;
     background:#FFAA00;
+
   }
-
-
+.registerbtn   {  padding: 13px;
+                   color:grey; }
 
 

@@ -43,12 +43,7 @@
     flex-wrap: wrap;
     }
 }
-@media (max-width:630px) {
-    .child1,
-    .child2 {
-        width: 100px;
-    }
-}
+
 
 @media (max-width:558px) {
     .image-wraper  {
